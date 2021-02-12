@@ -1,0 +1,50 @@
+html{
+    font size: 16px;
+}
+
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+#main-title{
+    color: #FF715B;
+}
+
+.section-headings{
+    color: #1EA896;
+}
+
+.paragraph-headings{
+    color: #273E47;
+}
+
+p{
+    color: #4C5454;
+}
+
+.pictures{
+    width: 50%;
+    height: auto;
+}
+
+a:link{
+    color: #1E1E24;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: #1EA896;
+  }
+
+  
