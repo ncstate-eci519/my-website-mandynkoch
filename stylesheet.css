@@ -76,6 +76,23 @@ p{
     height: auto; 
   }
 
+  @media (prefers-color-scheme: dark){
+    html{
+        background-color: black;
+        color: white;
+    }
+  }
+
+  @media (max-width: 991px){
+    .edtech aside{
+      background-color: lightgray;
+      float: unset;
+      width: 75%;
+      margin: 0 auto;
+      padding: 25px;
+    }
+  }
+
 
 
   
