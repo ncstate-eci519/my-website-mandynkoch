@@ -84,7 +84,7 @@ p{
   }
 
   @media (max-width: 991px){
-    .edtech aside{
+    .edtech{
       background-color: lightgray;
       float: unset;
       width: 75%;
