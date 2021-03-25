@@ -13,5 +13,13 @@ button{
 }
 
 .btn-primary{
-  color: #F5F5F5 !important;
+  color: #843377 !important;
+}
+
+.btn-primary{
+  background-color: #F5F5F5 !important;
+}
+
+.btn-primary{
+  border-color: #F5F5F5 !important;
 }
