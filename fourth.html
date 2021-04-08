@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"> 
+	<head>
+		<title>Mandy Koch</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w==" crossorigin="anonymous" />
+	</head>
+	<body>
+
+       
+    <h1 class="display-1 text-center">Museums Worldwide</h1>
+        <h2 class="text-center">There are about 55,000 museums worldwide! Museums can have several kinds of themes: art, history, science, or combinations of several different subject matters.</h2>
+         
+        <div class="mx-auto" style="width: 550px;">
+          <button id="hide">I don't care about museums.</button>
+          <button id="show">Show me more about museums!</button>
+        </div>
+            <p class="text-center"><a href="https://www.aam-us.org/">The American Alliance of Museums</a> is a great resource to explore the world of museums and all they have to offer!</p>
+    
+    </p>
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+    <div class="card-body">
+    <h5 class="card-title">Notable Art Museums</h5>
+    <p class="card-text">The Louvre (Paris, France), The Museum of Modern Art (New York City, New York), The State Hermitage Museum (St. Petersburg, Russia), Tate Modern (London, England), and Museo Nacional Del Prado (Madrid, Spain)</p>
+    </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+<div class="card-body">
+    <h5 class="card-title">Notable History Museums</h5>
+    <p class="card-text">Acropolis Museum (Athens, Greece), Hagia Sophia (Istanbul, Turkey), The Army Museum (Paris, France), The Asian Civilizations Museum (Singapore), and The Egyptian Museum (Cairo, Egypt)</p>
+ </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+ <div class="card-body">
+    <h5 class="card-title">Notable Science Museums</h5>
+    <p class="card-text">The Smithsonian Institute (Washington D.C.), The Natural History Museum (London, England), The Exploratorium (San Francisco, California), Te Papa Museum (Wellington, New Zealand), and The Universeum (Sweden)</p>
+   </div>
+</div>
+    </div>
+  </div>
+</div>
+    </p>
+  
+<h1 class="text-center">What type of museum do you most like to visit?</h1>
+<h2>Vote!</h2>
+ <form class="form-inline">
+   <label class="sr-only" for="museumtype"> Museum Type</label>
+  <select class="custom-select my-1 mr-sm-2" id="museumtype">
+    <option selected>Choose...</option>
+    <option value="art">Art</option>
+    <option value="science">Science</option>
+    <option value="history">History</option>
+    <option value="combination">Combination</option>
+  </select>
+   <button type="button" id="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+<hr/>
+<h2>Results</h2>
+<canvas id="myChart" width="400" height="200"></canvas>    
+    </p>
+       
+        
+        
+            
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js" integrity="sha512-SuxO9djzjML6b9w9/I07IWnLnQhgyYVSpHZx0JV97kGBfTIsUYlWflyuW4ypnvhBrslz1yJ3R+S14fdCWmSmSA==" crossorigin="anonymous"></script>
+     <script language="JavaScript" src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          
+    </body>
+</html>
+
+
+    
