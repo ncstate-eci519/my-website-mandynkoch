@@ -53,4 +53,16 @@ $(document).ready(function(){
         });
   }
   });
+
+
+  $(document).ready(function(){
+    $("button").click(function(){
+      var pizza = $.get("https://foodish-api.herokuapp.com/images/pizza/");
+      
+      pizza.done(function(response){
+        $("#pizza").attr("src",response.message);
+      });
+    })
+  })
+  
    
