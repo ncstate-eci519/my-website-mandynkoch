@@ -60,9 +60,15 @@ $(document).ready(function(){
       var pizza = $.get("https://foodish-api.herokuapp.com/images/pizza/");
       
       pizza.done(function(response){
-        $("#pizza").attr("src",response.message);
+        $("#pizza").attr("src",response.image);
       });
     })
   })
   
-   
+  $(document).ready(function(){
+    $("form").submit(function(){
+    event.preventDefault();
+    var webform = $.post("https://maker.ifttt.com/trigger/webform/with/key/bq3PGd1IgaqzF6PN3EZgNX", JSON.stringify({"value1": $("#email").val, "value2": $("#name").val(), "value3": $("#message").val()}));
+    });
+    })
+    
